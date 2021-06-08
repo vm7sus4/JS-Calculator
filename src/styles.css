@@ -1,0 +1,41 @@
+body {
+  overflow-y: hidden;
+}
+
+.container-fluid {
+  margin: 0 20% 0;
+  background: hsl(0, 4%, 60%);
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+.calc-display {
+  height: 5rem;
+  background: hsl(240, 33%, 83%);
+  margin: 0 2% ;
+}
+
+.calc-buttons {
+  margin: 0 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  flex: 0 25%;
+  height: 5rem;
+  /* background:hsl(0, 100%, 50%); */
+  border: 1px solid hsl(120, 100%, 25%);
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* div#plus {
+  height: 10rem;
+} */

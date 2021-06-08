@@ -2,7 +2,9 @@
   "name": "js_calculator",
   "version": "1.0.0",
   "description": "A simple JS Calculator by Vincent Magesa",
-  "scripts": {},
+  "scripts": {
+    "start": "live-server --entry-file=\"/src/index.html\""
+  },
   "author": "Vincent Magesa",
   "license": "MIT",
   "dependencies": {
